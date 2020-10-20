@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+
+#container{
+    border: 1px solid blue;
+    height: 100vh;
+}
+
+#header{
+    height: 20vh;
+}
+#content{
+    height: 60vh;
+}
+#footer{
+    height: 20vh;
+}
+
+/* #content > div > span {
+    display: block;
+} */
+
+div.mensal {
+    margin-left: 100px;
+}
+
+div.planos{    
+    display: inline;
+    margin-right: 30px;
+}
+div.planos > span{
+    background-color: blue;
+    display: inline-block;
+}
