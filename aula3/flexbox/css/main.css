@@ -144,14 +144,20 @@ body{
     }
 
     #content-main section{
-        flex: 1;
-        height: 300px;                
+        flex: 1;                   
         border: 2px solid red;
         box-sizing: border-box;
         padding: 10px;
-    }    
+        flex-wrap: wrap;
+        justify-content: space-between;        
+    }
+    
+    #content-main section > header{
+        flex-wrap: wrap;
+    }
 
     #content-main section > header > h3{
+        flex-basis: 100%;
         margin: 0;
     }
 
@@ -170,6 +176,26 @@ body{
     .noticias{
         display: flex;
         margin-top: 20px;;
+    }
+
+    .noticias header{
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row !important;
+        border: 2px solid blue;
+    }
+    #populares-content,
+    #artigos-content{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row !important;
+        border: 2px solid green;
+        padding: 10px;
+    }
+
+    .alunos{
+        margin-top: 10px;
     }
 
     #populares{ margin-right: 20px;}
