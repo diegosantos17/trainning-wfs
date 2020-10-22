@@ -13,36 +13,59 @@
     </style>    <!-- /STYLES -->
 </head>
 <body>
-    
+    <!-- FOCO: Limite de 5 niveis mr (mr-1 até mr-5) ou ml -->
     <div class="container">
       <div class="row">
         <div class="col">
-          <ul class="list-unstyled">
-            <li class="media">
-              <img class="mr-3" src="http://via.placeholder.com/64x64" alt="Imagem de exemplo genérica">
-              <div class="media-body">
-                <h5 class="mt-0 mb-1">Objeto de mídia baseado em lista</h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iste quis laborum ex odio velit ab, officia fugiat excepturi doloremque doloribus in, molestiae autem ea vitae optio nemo, quos voluptatem.
-              </div>
-            </li>
-            <li class="media my-4">
-              <img class="mr-3" src="http://via.placeholder.com/64x64" alt="Imagem de exemplo genérica">
-              <div class="media-body">
-                <h5 class="mt-0 mb-1">Objeto de mídia baseado em lista</h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iste quis laborum ex odio velit ab, officia fugiat excepturi doloremque doloribus in, molestiae autem ea vitae optio nemo, quos voluptatem.
-              </div>
-            </li>
-            <li class="media">
-              <img class="mr-3" src="http://via.placeholder.com/64x64" alt="Imagem de exemplo genérica">
-              <div class="media-body">
-                <h5 class="mt-0 mb-1">Objeto de mídia baseado em lista</h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iste quis laborum ex odio velit ab, officia fugiat excepturi doloremque doloribus in, molestiae autem ea vitae optio nemo, quos voluptatem.
-              </div>
-            </li>
-          </ul>
+          <div class="media">
+            <img class="align-self-start mr-5" src="http://via.placeholder.com/64x64" alt="Imagem de exemplo genérica">
+            <div class="media-body">
+              <h5 class="mt-0">Mídia alinhada ao topo</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi maxime quis ex placeat nam, ad expedita aperiam corporis consequatur, libero mollitia cupiditate rem in dicta omnis! Iure, tempore eaque?</p>
+              <p>Donec sed odio Nota de rodapé</p>
+            </div>
+          </div>
         </div>
-      </div>  
-    </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="media">
+            <img class="align-self-center mr-3" src="http://via.placeholder.com/64x64" alt="Imagem de exemplo genérica">
+            <div class="media-body">
+              <h5 class="mt-0">Mídia centralizada</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi maxime quis ex placeat nam, ad expedita aperiam corporis consequatur, libero mollitia cupiditate rem in dicta omnis! Iure, tempore eaque?</p>
+              <p class="mb-0">Nota de rodapé</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+            <div class="col">
+              <div class="media">
+                <img class="align-self-end mr-3" src="http://via.placeholder.com/64x64" alt="Imagem de exemplo genérica">
+                <div class="media-body">
+                  <h5 class="mt-0">Mídia alinhada na parte inferior</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi maxime quis ex placeat nam, ad expedita aperiam corporis consequatur, libero mollitia cupiditate rem in dicta omnis! Iure, tempore eaque?</p>
+                  <p class="mb-0">Nota de rodapé</p>
+                </div>
+              </div>
+            </div>
+         </div>
+
+         <!-- Ordem da imagem -->
+         <div class="row">
+          <div class="col">
+            <div class="media">              
+              <div class="media-body">
+                <h5 class="mt-0">Mídia alinhada na parte inferior</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi maxime quis ex placeat nam, ad expedita aperiam corporis consequatur, libero mollitia cupiditate rem in dicta omnis! Iure, tempore eaque?</p>
+                <p class="mb-0">Nota de rodapé</p>
+              </div>
+              <img class="align-self-end ml-3" src="http://via.placeholder.com/64x64" alt="Imagem de exemplo genérica">
+            </div>
+          </div>
+       </div>
+     </div>
 
     <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
