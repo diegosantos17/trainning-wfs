@@ -1,0 +1,38 @@
+#sidebar {        
+    background: #1d1d1d;
+    color: #fff;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #1d1d1d;
+}
+
+a, 
+a:hover {
+    color: gray;
+    text-decoration: none;    
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;    
+}
+
+
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block; /*Pulo do gato*/
+}
+
+#sidebar ul li a:hover {
+    color: white;
+    background: black;
+}
+
+a[aria-expanded="true"] {
+    color: #fff;
+    background: black !important;
+}
