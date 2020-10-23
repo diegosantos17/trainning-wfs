@@ -64,9 +64,13 @@
                     </div>
                     <div class="col-auto ml-auto">
                         <div class="media">
-                            <div class="media-body mr-3 text-right">
+                            <div style="z-index: 99999;" class="media-body mr-3 text-right">
                                 <h5 class="mb-0">Diego Rodrigues</h5>
-                                <a href="index.html">Sair</a>
+                                <a href="#menu-usuario" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">Funcionário</a>
+                                <ul id="menu-usuario" class="collapse list-unstyled">
+                                    <li><a href="perfil.html">Perfil</a></li>
+                                    <li><a href="index.html">Sair</a></li>                                    
+                                </ul>
                             </div>
                             <img id="img-foto-perfil" class="align-self-start rounded-circle"
                                 src="https://thispersondoesnotexist.com/image?i=1" alt="">
@@ -90,11 +94,20 @@
                     <!-- Content Body -->
                     <div id="content-body" class="col">
                         <div class="row">
-                            <div class="card col px-0">
-                                <img class="card-img-top" src="https://picsum.photos/200/120" alt="">
-                                <div class="card-body">
-                                    <h5 class="card-title">Title</h5>
-                                    <p class="card-text">Content</p>
+                            <div class="col">
+                                <div class="card px-0">
+                                    <img class="card-img-top" src="https://picsum.photos/200/120" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-text">Content</p>
+                                    </div>
+                                </div>
+                                <div class="card px-0">
+                                    <img class="card-img-top" src="https://picsum.photos/200/120" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-text">Content</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col funcionarios pr-0">

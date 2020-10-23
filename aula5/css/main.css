@@ -28,3 +28,13 @@ body {
 #img-foto-perfil{
     width: 50px;    
 }
+
+#menu-usuario{    
+    position: absolute;    
+    right: 80px;
+    width: 200px;
+    background-color: #fff;
+}
+#menu-usuario li {
+    text-align: left;
+}

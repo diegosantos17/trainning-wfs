@@ -1,3 +1,8 @@
+#content-body > div.row{
+    overflow-y: scroll; /* SCROOL */
+    height: calc(100vh - 134px);
+}
+
 .funcionarios ul li a img {
     width: 40px;
 }
@@ -15,21 +20,19 @@
     overflow-y: scroll;
 }
 
-ul::-webkit-scrollbar {
+/* SCROOL */
+::-webkit-scrollbar {
     width: 10px;
     /* width of the entire scrollbar */    
 }
-::-webkit-scrollbar-button:start:decrement,
-::-webkit-scrollbar-button:end:increment  {
-	display: none;
-}
 
+/* SCROOL */
 ::-webkit-scrollbar-track-piece  {
-	background-color: #3b3b3b;	
+	background-color: rgb(167, 164, 164);	/* SCROOL: Fundo da rolagem */
 }
-
+/* SCROOL */
 ::-webkit-scrollbar-thumb:vertical {
-	background-color: #666;
+	background-color: #666; /* SCROOL: Rolagem */
 }
 
 .funcionarios ul li {
