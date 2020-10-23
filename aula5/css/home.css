@@ -1,0 +1,41 @@
+.funcionarios ul li a img {
+    width: 40px;
+}
+
+#my-carousel div div img {
+    width: 100%;
+}
+
+.funcionarios {
+    max-height: 200px !important;
+}
+
+.funcionarios ul {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+ul::-webkit-scrollbar {
+    width: 10px;
+    /* width of the entire scrollbar */    
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+	display: none;
+}
+
+::-webkit-scrollbar-track-piece  {
+	background-color: #3b3b3b;	
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #666;
+}
+
+.funcionarios ul li {
+    background-color: #fff;
+    padding: 5px;
+    border: none;
+    box-shadow: 2px 2px 0 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}

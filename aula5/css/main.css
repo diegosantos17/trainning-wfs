@@ -21,9 +21,8 @@ body {
     
 }
 
-#content-body{
-    display: flex;
-    height: calc(100vh - 82px); /* Pulo do gato */ 
+#content{    
+    height: 100vh; /* Pulo do gato */ 
 }
 
 #img-foto-perfil{
